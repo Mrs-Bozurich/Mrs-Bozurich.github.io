@@ -1,0 +1,37 @@
+#community-vote {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 2em;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#community-vote h2 {
+    color: #005b96; /* Dark blue for header */
+}
+
+#community-vote label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#community-vote select, #community-vote button {
+    display: block;
+    margin: 10px 0;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1em;
+}
+
+#community-vote button {
+    background-color: #005b96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#community-vote button:hover {
+    background-color: #004080;
+}
